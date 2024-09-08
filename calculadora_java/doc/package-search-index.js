@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"calculadora_java","l":"calculadora_java"},{"m":"calculadora_java","l":"funcoes"}];updateSearchResults();

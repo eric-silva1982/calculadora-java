@@ -1,0 +1,9 @@
+package calculadora_java;
+
+public class Multiplicacao {
+	public double a,b;
+	
+	public double getProduto() {
+		return a*b;
+	}
+}

@@ -1,0 +1,10 @@
+package funcoes;
+
+public class Porcentagem {
+	public double a,b;
+	
+	public double getPorcentagem() {
+		return a*(b/100);
+	}
+	
+}

@@ -1,0 +1,7 @@
+package calculadora_java;
+
+public class Subtracao {
+	public double a,b;
+	
+	
+}

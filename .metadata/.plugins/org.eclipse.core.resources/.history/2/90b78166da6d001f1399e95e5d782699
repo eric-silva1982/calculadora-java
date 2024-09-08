@@ -1,0 +1,74 @@
+package calculadora_java;
+
+import funcoes.Divisao;
+import funcoes.Multiplicacao;
+import funcoes.Soma;
+import funcoes.Subtracao;
+import java.util.Scanner;
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		int op;
+		
+		Soma soma = new Soma();
+		
+		soma.setA(5);
+		soma.setB(4);
+		
+		String resultSoma;
+		StringBuilder somabuilder = new StringBuilder();
+		somabuilder.append("Soma = ");
+		somabuilder.append(soma.getSoma());
+		resultSoma = somabuilder.toString();
+		System.out.println(resultSoma);
+		
+		
+		
+		Subtracao sub = new Subtracao();
+		
+		sub.setA(67);
+		sub.setB(54);
+		
+		String resultSubtracao;
+		StringBuilder subuilder = new StringBuilder();
+		subuilder.append("Diferença = ");
+		subuilder.append(sub.getSubtracao());
+		resultSubtracao = subuilder.toString();
+		System.out.println(resultSubtracao);
+
+		
+		
+		
+		Multiplicacao produto = new Multiplicacao();
+		
+		produto.setA(12);
+		produto.setB(5);
+		
+		String resultProduto;
+		StringBuilder produtobuilder = new StringBuilder();
+		produtobuilder.append("Produto = ");
+		produtobuilder.append(produto.getProduto());
+		resultProduto = produtobuilder.toString();
+		System.out.println(resultProduto);
+		
+		
+		
+		
+		Divisao divisao = new Divisao();
+		
+		divisao.setA(64);
+		divisao.setB(4);
+		
+		String resultDivisao;
+		StringBuilder divisaobuilder = new StringBuilder();
+		divisaobuilder.append("Quociente = ");
+		divisaobuilder.append(divisao.getDivisao());
+		resultDivisao = divisaobuilder.toString();
+		System.out.println(resultDivisao);
+	}
+
+}

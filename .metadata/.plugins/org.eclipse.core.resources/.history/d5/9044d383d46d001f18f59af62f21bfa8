@@ -1,0 +1,8 @@
+package calculadora_java;
+
+public class Soma {
+		
+	public double Soma() {
+		return a + b;
+	}
+}

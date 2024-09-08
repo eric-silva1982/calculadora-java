@@ -1,0 +1,8 @@
+package calculadora_java;
+
+public class Divisao {
+	public double a,b;
+	public double getDivisao(){
+		return a/b;
+	}
+}

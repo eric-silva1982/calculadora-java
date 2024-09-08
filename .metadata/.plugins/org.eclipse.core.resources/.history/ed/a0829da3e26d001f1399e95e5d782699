@@ -1,0 +1,37 @@
+package funcoes;
+import java.text.DecimalFormat;
+
+public class Porcentagem {
+	public double a,b;
+	
+	public double getA() {
+		return a;
+	}
+
+	public void setA(double a) {
+		this.a = a;
+	}
+
+	public double getB() {
+		return b;
+	}
+
+	public void setB(double b) {
+		this.b = b;
+	}
+
+	public double getPorcentagem() {
+		double resultado = a*(b/100);
+		
+		//formatando resultado para duas casas decimais instanciando a classe DecimalFormat
+		DecimalFormat arred = new DecimalFormat("#.##");
+		String resultadoFormatado = arred.format(resultado);
+		
+		//convertendo o resultado formatado de volta para double
+		double resultadoArred = Double.parseDouble(resultadoFormatado);
+		
+		
+		return a*(b/100);
+	}
+	
+}

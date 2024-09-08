@@ -1,0 +1,54 @@
+package calculadora_java;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Soma soma = new Soma();
+		
+		soma.setA(5);
+		soma.setB(4);
+		
+		String resultSoma;
+		StringBuilder somabuilder = new StringBuilder();
+		somabuilder.append("Soma = ");
+		somabuilder.append(soma.getSoma());
+		resultSoma = somabuilder.toString();
+		System.out.println(resultSoma);
+		
+		
+		
+		Subtracao sub = new Subtracao();
+		
+		sub.setA(67);
+		sub.setB(54);
+		
+		String resultSubtracao;
+		StringBuilder subuilder = new StringBuilder();
+		subuilder.append("Diferença = ");
+		subuilder.append(sub.getSubtracao());
+		resultSubtracao = subuilder.toString();
+		System.out.println(resultSubtracao);
+
+		
+		
+		
+		Multiplicacao produto = new Multiplicacao();
+		
+		produto.setA(12);
+		produto.setB(5);
+		
+		String resultProduto;
+		StringBuilder produtobuilder = new StringBuilder();
+		produtobuilder.append("Produto = ");
+		produtobuilder.append(produto.getProduto());
+		resultProduto = produtobuilder.toString();
+		System.out.println(resultProduto);
+		
+		
+		
+		
+		Divisao divisao = new Divisao();
+	}
+
+}

@@ -1,0 +1,27 @@
+package funcoes;
+
+public class Potencia {
+	double a,b;
+
+	public double getA() {
+		return a;
+	}
+
+	public void setA(double a) {
+		this.a = a;
+	}
+
+	public double getB() {
+		return b;
+	}
+
+	public void setB(double b) {
+		this.b = b;
+	}
+	
+	public double getPotencia() {
+		double resultado = Math.pow(a, b);
+		return
+	}
+	
+}
